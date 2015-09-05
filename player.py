@@ -1,8 +1,9 @@
 __author__ = "wmyers559"
 
 import entity
+import error
 
-class Player(object):
+class Player(entity):
     """Basic player object. Takes initial health as a argument."""
 
     def __init__(self, health):
