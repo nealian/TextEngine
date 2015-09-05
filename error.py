@@ -9,8 +9,8 @@ class Error(Exception):
 class KeywordError(Error):
     """Exception to be raised whenever someone tries to interact with an object in an forbidden way."""
 
-    def __init__(self, keyword)
+    def __init__(self, keyword):
         self.keyword = keyword
 
-    def __str__(self)
-       return "unknown keyword \"" + self.keyword + "\"."
+    def __str__(self):
+       return "Unknown keyword \"" + self.keyword + "\"."
